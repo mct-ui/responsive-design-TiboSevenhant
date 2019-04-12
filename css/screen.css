@@ -228,7 +228,12 @@ a:focus {
 /* color modifiers */
 
 .o-row--neutral-x-light {
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
+}
+
+.o-row--gradient{
+    background: linear-gradient(to bottom, #5051DB 0%, #3887F7 100%);
+    color: #ffffff;
 }
 
 /*
@@ -613,6 +618,21 @@ a:focus {
     background-color: #3E3EA8;
 }
 
+/* inversed */
+
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #ffffff;
+}
+
+.c-link-cta--inverse::after{
+    background-color: #ffffff
+}
+
+.c-link-cta--inverse:hover::after{
+    background-color: #ffffff;
+}
 
 /*------------------------------------*\
   #UTILITIES
